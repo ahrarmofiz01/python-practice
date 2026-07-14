@@ -12,4 +12,8 @@ total=sum(marks)
 print(total)
 avrage=total/len(marks)
 print(avrage)
-number=[1,2,3,4]
+#secon largest number
+number=[10,9,11,23,40,80]
+number.sort()
+print(number[-2])
+
