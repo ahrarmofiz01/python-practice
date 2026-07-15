@@ -12,8 +12,7 @@ total=sum(marks)
 print(total)
 avrage=total/len(marks)
 print(avrage)
-#secon largest number
-number=[10,9,11,23,40,80]
-number.sort()
-print(number[-2])
-
+#second largest number
+marks=[99,20,30,80]
+marks.sort()
+print(marks[-2])
