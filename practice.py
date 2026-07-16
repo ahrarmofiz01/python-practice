@@ -47,3 +47,12 @@ while i<len(name):
 items=["apple","orrange"]
 for items in items:
     print(items,end=" ")
+# function
+def myfunction():
+    print("hello world")
+myfunction()
+def add_function(a,b):
+    return a+b
+
+result = add_function(10,20)
+print(result)
