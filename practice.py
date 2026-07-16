@@ -56,3 +56,8 @@ def add_function(a,b):
 
 result = add_function(10,20)
 print(result)
+def mathfunction(a,b):
+    return a*b
+result=mathfunction(10,20)
+result=mathfunction(10,300)
+print(result)
