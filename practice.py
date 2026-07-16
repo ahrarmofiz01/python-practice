@@ -34,3 +34,16 @@ list3=[34,92,88,12,43]
 list2.extend(list3)
 print(list2)
 print(sorted(set(list2)))
+#Loop Through a List
+fruits=["apple","banana","cherry"]
+for x in  range (len(fruits)):
+    print(x)
+# while loop
+name=["aadam","ram","shyam"]
+i=0
+while i<len(name):
+    print(name[i])
+    i=i+1
+items=["apple","orrange"]
+for items in items:
+    print(items,end=" ")
