@@ -18,3 +18,6 @@ print(input1%10)
 def function(a):
     print(3.14*a*a)
 function(3)
+def reverse_function(lst):
+    print(list(reversed(lst)))
+reverse_function([1,2,3,4,5])
