@@ -1,10 +1,5 @@
-class person:
+class name:
     def __init__(self,name):
-        self.name = name
-p1=person("ahrar")
+        self.name=name
+p1 =name("ahrar")
 print(p1.name)
-class contact:
-    def __init__(self,email):
-        self.email=email
-c1=contact("ahrar@example.com")
-print(c1.email)
