@@ -24,3 +24,4 @@ elif number3 > number1 and number3 > number2:
 
 else:
     print("All numbers are equal or at least two numbers are equal.")
+    
