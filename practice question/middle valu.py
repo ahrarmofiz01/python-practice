@@ -1,12 +1,11 @@
-number = int(input("Enter first number: "))
-number1 = int(input("Enter second number: "))
-number2 = int(input("Enter third number: "))
+number1=int(input("enter your number:"))
+number2=int(input("enter your number:"))
+number3=int(input("enter your number:"))
+if (number1 > number2 and number1 < number3) or (number1 < number2 and number1 > number3):
+    print("number1 is 2nd largest:", number1)
 
-if (number > number1 and number < number2) or (number < number1 and number > number2):
-    print("Second largest:", number)
-
-elif (number1 > number and number1 < number2) or (number1 < number and number1 > number2):
-    print("Second largest:", number1)
+elif (number2 > number1 and number2 < number3) or (number2 < number1 and number2 > number3):
+    print("number2 is 2nd largest:", number2)
 
 else:
-    print("Second largest:", number2)
+    print("number3 is 2nd largest:", number3)
