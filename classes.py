@@ -11,3 +11,12 @@ class student:
 a1=student("ahrar",20)
 print(a1.name)
 print(a1.age)
+class fan:
+   def __init__(self ,compony,speed,color):
+      self.compony=compony
+      self.speed=speed
+      self.color=color
+c1=fan("tufaan",120,"red")
+print(c1.compony)
+print(c1.speed)
+print(c1.color)
