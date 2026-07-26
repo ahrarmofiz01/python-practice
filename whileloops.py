@@ -15,3 +15,7 @@ while count<=10:
     num=num+count
     count=count+1
 print(num)
+count=0
+while count<=20:
+    print(count)
+    count=count+2
