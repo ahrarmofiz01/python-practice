@@ -1,5 +1,4 @@
-number=int(input("enter the  number:"))
-count=number
-while count>=1:
-    print(count)
-    count=count-1
+list=[10,25,15,8,20]
+list.sort()
+print(list)
+print(list[-2])
