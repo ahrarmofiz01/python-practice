@@ -3,3 +3,4 @@ first,*all,last=list
 print(first)
 print(all)
 print(last)
+#this concept i learn from instagram 
