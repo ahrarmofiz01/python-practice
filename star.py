@@ -31,3 +31,10 @@ for i in list:
     if i>largest:
         largest=i
 print(largest)
+nums = [2, 5, 8, 1, 10]
+total = 0
+
+for i in nums:
+    if i%2==0:
+        total = total+i
+print(total)
