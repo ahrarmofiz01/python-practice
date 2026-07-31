@@ -27,6 +27,15 @@ for i in nums:
     if i%2==1:
         list.append(i)
 print(list)
-print(list[0]+list[1])
+print(list[0]+list[1]) #BAD METHOD NOT GOOD🤣
 
+nums = [12, 5, 8, 7, 20]
 
+total = 0
+
+for i in nums:
+    if i % 2 == 1:
+        total = total + i
+
+print(total)
+    
