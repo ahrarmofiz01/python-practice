@@ -43,6 +43,13 @@ sum=0
 for i in j:
     if i%2==0:
         sum=sum+i
+
+print(sum)
+k=[2,5,9,8,4,12]
+sum=0 
+for i in k:
+    if i>=10:
+        sum=sum+i
         
 print(sum)
 
