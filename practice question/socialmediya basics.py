@@ -17,4 +17,8 @@ b = "40"
 print(a > b)
 #true
 print("100" > "99")
+a=[1,2,3,4,5]
+print(a*2)
+b=[1,2,3,4,5]
+print(b*0)
 
