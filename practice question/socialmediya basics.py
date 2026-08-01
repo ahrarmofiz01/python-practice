@@ -45,12 +45,11 @@ for i in j:
         sum=sum+i
 
 print(sum)
-k=[2,5,9,8,4,12]
-sum=0 
+k=[2,3,4,5,6,9]
+sum=0
 for i in k:
-    if i>=10:
+    if i%2==1:
         sum=sum+i
-        
 print(sum)
 
     
