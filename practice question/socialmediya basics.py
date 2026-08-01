@@ -51,5 +51,33 @@ for i in k:
     if i>=5:
         sum=sum+i
 print(sum)
-
-    
+nums = [5,8,12,3,10,15]
+total=0
+for i in nums:
+    if i>7:
+        total = total + i
+print(total)
+nums = [2,4,6,7,9,12]
+total=0
+for i in nums:
+    if i%2==1:
+        total = total + i
+print(total)
+nums = [-5,8,-2,4,-1]
+total=0
+for i in nums:
+    if i<0:
+        total = total + i
+print(total)
+nums = [10,20,30,40,50]
+total=0
+for i in nums:
+    if i<35:
+        total = total + i
+print(total)
+nums = [2,5,8,11,14,17]
+total=0
+for i in nums:
+    if i>5 and i%2==1:
+        total = total + i
+print(total)
