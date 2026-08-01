@@ -48,7 +48,7 @@ print(sum)
 k=[2,3,4,5,6,9]
 sum=0
 for i in k:
-    if i%2==1:
+    if i>=5:
         sum=sum+i
 print(sum)
 
