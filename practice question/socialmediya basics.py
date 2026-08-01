@@ -81,3 +81,10 @@ for i in nums:
     if i>5 and i%2==1:
         total = total + i
 print(total)
+nums = [10, 21, 35, 40, 50, 63]
+total=0
+for i in nums:
+    if i%7==0 or i%5==0:
+        total=total +i
+        
+print(total)
