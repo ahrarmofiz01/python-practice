@@ -115,6 +115,11 @@ print(count)
 nums1 = [2,5,8,11,14,17,20]
 count1=0
 for i in nums1:
-    if i%2==0 and i>10:
+    if i%2==0 or i>10:
         count1=count1+1
 print(count1)
+nums=[10,20,20]
+total=0
+for i in nums:
+    total=total+i
+print(total)
