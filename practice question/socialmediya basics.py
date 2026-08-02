@@ -88,3 +88,33 @@ for i in nums:
         total=total +i
         
 print(total)
+nums = [2,5,8,7,10,11]
+count=0
+for i in nums:
+    if i%2==0:
+        count= count+1
+print(count)
+nums = [2,5,8,7,10,11]
+count=0
+for i in nums:
+    if i%2==1:
+        count= count+1
+print(count)
+nums = [2,5,8,7,10,11]
+count=0
+for i in nums:
+    if i>6:
+        count= count+1
+print(count)
+nums = [2,5,8,7,10,11]
+count=0
+for i in nums:
+    if i<0:
+        count= count+1
+print(count)
+nums1 = [2,5,8,11,14,17,20]
+count1=0
+for i in nums1:
+    if i%2==0 and i>10:
+        count1=count1+1
+print(count1)
