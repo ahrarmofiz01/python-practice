@@ -21,4 +21,5 @@ print(df.describe())
 #save and load data from csv
 df.to_csv('test_data.csv')
 df=pd.read_csv('test_data.csv')
-print(df)
+print(df[['NAME']])
+print(df.loc[df.salary>=50000])
