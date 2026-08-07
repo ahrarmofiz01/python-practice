@@ -1,10 +1,22 @@
-nums = [2, 7, 11, 15]
-target = 9
-seen = {}
+nums=[5,5,3,12]
+target=10
+seen={}
 for i in range(len(nums)):
     current=nums[i]
     need=target-current
     if need in seen:
-        print([seen[need]], [i])
+        print([seen[need],i])
         break
-    seen[current] = i
+    seen[current]=i
+
+nums=[9,1,2,3,4]
+target=5
+seen={}
+for i  in range(len(nums)):
+    current=nums[i]
+    need=target-current
+    if need in seen:
+        print([seen[need],i])
+        break
+    seen[current]=i
+
