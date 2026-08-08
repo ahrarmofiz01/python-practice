@@ -6,3 +6,4 @@ student["gender"]="male"
 print(student)
 if "john" in student["name"]:
     print(True)
+print(student.get("Ali"))
