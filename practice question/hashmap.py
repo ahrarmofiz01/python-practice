@@ -19,4 +19,12 @@ for i  in range(len(nums)):
         print([seen[need],i])
         break
     seen[current]=i
+nums = [3, 8, 5, 3, 9, 8]
+seen={}
+for i  in range(len(nums)):
+    current=nums[i]
+    if current in seen:
+        print(current)
+        break
+    seen[current]=i
 
