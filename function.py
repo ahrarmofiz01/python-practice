@@ -1,23 +1,11 @@
-def myfunction():
-    print("hello world")
-myfunction()
+def find_largest(nums):
+    largest = nums[0]
 
-def add_function(a,b):
-    return a+b
+    for i in nums:
+        if i > largest:
+            largest = i
 
-result = add_function(10,20)
-print(result)
+    return largest
+answer=find_largest([8,9,1021,19])
+print(answer)
 
-def mathfunction(a,b):
-    return a*b
-result=mathfunction(10,20)
-result=mathfunction(10,300)
-print(result)
-input1=12345
-print(input1%10)
-def function(a):
-    print(3.14*a*a)
-function(3)
-def reverse_function(lst):
-    print(list(reversed(lst)))
-reverse_function([1,2,3,4,5])
