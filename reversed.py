@@ -24,4 +24,17 @@ while tem>0:
     tem//=10
 print(ans)
 
+############palindrome#############
+num=121
+tem=num
+rev=0
+while tem>0:
+    r=tem%10
+    tem//=10
+    rev=rev*10+r
+if rev==num:
+    print(True)
+else:
+    print(False)
+
   
