@@ -1,10 +1,10 @@
-def my_function():
-    return "my name is ahrar mofiz"
-result=my_function()
-print(result)
-def math_function(a,b):
-    return a*b
-result=math_function(9,8)
-print(result)
+def count(nums):
+    count=0
+    for i in nums:
+        if i%2==0:
+            count=count+1
+    return count
+answer=count([2,9,0,12,14])
+print(answer)
 
 
