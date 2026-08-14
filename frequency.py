@@ -31,3 +31,12 @@ for i in candie:
     else:
         ans.append(False)
 print(ans)
+nums = [5, 8, 2, 15, 7, 1]
+
+largest = nums[0]   # Assume first element is the largest
+
+for i in nums:
+    if i > largest:
+        largest = i
+
+print("Largest number is:", largest)
