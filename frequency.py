@@ -21,3 +21,13 @@ if num == reverse:
     print("Palindrome")
 else:
     print("Not Palindrome")
+candie=[1,2,3,4,5,6]
+extracandie=3
+maxcandie=max(candie)
+ans=[]
+for i in candie:
+    if (i+extracandie)>maxcandie:
+        ans.append(True)
+    else:
+        ans.append(False)
+print(ans)
