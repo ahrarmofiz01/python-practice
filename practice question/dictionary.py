@@ -6,4 +6,4 @@ student["gender"]="male"
 print(student)
 if "john" in student["name"]:
     print(True)
-print(student.get("Ali"))#if kew is not present then it will  return None
+print(student.get("Ali"))#if key is not present then it will  return None
