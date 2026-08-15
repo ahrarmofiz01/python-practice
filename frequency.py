@@ -47,3 +47,7 @@ for i in nums:
     if i<lowest:
         lowest=i
 print(lowest)
+nums=[9,2,3,4,5,3]
+for i in nums:
+    if i%2==0:
+        print(i)
