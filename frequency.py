@@ -40,3 +40,10 @@ for i in nums:
         largest = i
 
 print("Largest number is:", largest)
+#minimum number
+nums=[3,4,6,1,7,8,9]
+lowest=nums[0]
+for i in nums:
+    if i<lowest:
+        lowest=i
+print(lowest)
