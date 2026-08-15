@@ -1,14 +1,9 @@
-currentblance=10000
-password=1234
-pin=int(input("enter your pin:"))
-if pin==password:
-    print("your password is correct")
-else:
-    print("wrong password")
-
-balance=100000
-creditammount=int(input("enter your ammount"))
-if creditammount<=balance:
-    print(balance-creditammount,"this is your ablable balance")
-elif creditammount>balance:
-    print("incuficent balance")
+current_balance=10000
+password=4321
+pin=int(input("enter the pin"))
+if password==pin:
+    creditammount=int(input("enter the amount you want:"))
+    if current_balance>=creditammount:
+        print("your current balance",current_balance-creditammount)
+    else:
+        print("enter correct ammount")
