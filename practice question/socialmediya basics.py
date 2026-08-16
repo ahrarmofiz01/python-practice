@@ -123,3 +123,9 @@ total=0
 for i in nums:
     total=total+i
 print(total)
+list=[1,2,3,4,5,6]
+first,*all,last=list
+print(first)
+print(all)
+print(last)
+#this concept i learn from instagram 
