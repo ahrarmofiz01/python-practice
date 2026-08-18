@@ -19,4 +19,11 @@ while j<5:
     if j==4:
         break
     j=j+1
-  
+nums=12345
+count=0
+while nums>0:
+    count=count+1
+    nums=nums//10
+    print(count)
+
+ 
