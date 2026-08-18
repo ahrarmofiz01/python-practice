@@ -13,4 +13,10 @@ count=20
 while count>=1:
     print(count)
     count=count-1
+j=1
+while j<5:
+    print(j)
+    if j==4:
+        break
+    j=j+1
   
