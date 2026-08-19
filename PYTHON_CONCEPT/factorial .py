@@ -1,7 +1,7 @@
 num=5
 count=1
-i=1
+factorial=1
 while count<=5:
-    i=i*count
+    factorial=factorial*count
     count=count+1
-print(i)
+print(factorial)
