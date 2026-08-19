@@ -1,11 +1,6 @@
-nums=12345
+num=1234567
 count=0
-while nums>0:
-    nums=nums//10
+while num>0:
     count=count+1
-print(count)
-nums=1234567
-count=0
-for i in str(nums):
-    count = count+1
+    num=num//10
 print(count)
