@@ -1,7 +1,7 @@
-nums=12345
-count=0
+nums=1234
+reversed=0
 while nums>0:
-    digit=nums%10
-    count=10*count+digit
+    r=nums%10
+    reversed=reversed*10+r
     nums=nums//10
-print(count)
+print(reversed)
