@@ -1,13 +1,13 @@
-nums=121
+nums=424
 tem=nums
-count=0
+reversed=0
 while nums>0:
-    digit=nums%10
-    count=count*10+digit
+    r=nums%10
+    reversed=reversed*10+r
     nums=nums//10
-if count==tem:
-    print("the number is palindrome")
-else:
-    print("not palindrome")
-
+print(reversed)
+if tem==reversed:
+    print("the number  pelendrome")
+else :
+    print("number is not pelendrome")
 
