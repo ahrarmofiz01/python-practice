@@ -66,3 +66,12 @@ for i in nums:
     if i==0:
         result.append(i)
 print(result)
+scores = [45, 0, 78, 0, 92, 34, 0, 81]
+order=[]
+for i in scores:
+    if i != 0:
+        order.append(i)
+for i in scores:
+    if i==0:
+        order.append(i)
+print(order)
