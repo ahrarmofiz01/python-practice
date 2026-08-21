@@ -75,3 +75,13 @@ for i in scores:
     if i==0:
         order.append(i)
 print(order)
+nums=[10, 5, 20, 8, 15]
+largest=0
+second=0
+for i in nums:
+    if i>largest:
+        largest=i
+    else:
+        if i>second:
+            second=i
+print(second)
