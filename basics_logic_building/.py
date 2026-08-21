@@ -57,5 +57,12 @@ for i in range(1,5):
     print()
 for i in range(1,6):
     print(i*(i-1))
-
-    
+nums=[1,3,0,9,0,8,6]
+result=[]
+for i in nums :
+    if i != 0:
+        result.append(i)
+for i in nums:
+    if i==0:
+        result.append(i)
+print(result)
