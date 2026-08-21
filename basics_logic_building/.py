@@ -34,11 +34,25 @@ print(subs)
 for i in range(1,11):
     print(i*"*")
 
-count=10
+count=15
 while count>0:
     print(count*"*")
     count=count-1
 
+count=1
+while count<=5:
+    print(count)
+    count=count+1
+
+for i in range(1, 6):
+    
+    for j in range(1, i + 1):
+        print(j, end="")
+    print()  
 
 
+for i in range(1,5):
+    for j in range(1,i+1):
+        print(j,end="")
+    print()
     
