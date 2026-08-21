@@ -8,11 +8,14 @@ nums=[10,20,9,30,40]
 for i in nums:
     if i%3==0:
         print(i)
-num=5
-count=1
+count=0
+for i in range(1,6):
+    count=count+i
+print(count)
+n=5
 sum=0
-while num>0:
-    sum=sum+count
-    count=count+1
-    num=num-1
+while n>0:
+    sum=sum+n
+    n=n-1
 print(sum)
+#A for loop repeats a specific number of times, while a while loop repeats until a condition changes.
