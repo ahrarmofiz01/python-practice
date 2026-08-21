@@ -31,3 +31,5 @@ while n>0:
     subs=subs-n
     n=n-1
 print(subs)
+for i in range(1,11):
+    print(i*"*")
