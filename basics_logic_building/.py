@@ -33,3 +33,12 @@ while n>0:
 print(subs)
 for i in range(1,11):
     print(i*"*")
+
+count=10
+while count>0:
+    print(count*"*")
+    count=count-1
+
+
+
+    
