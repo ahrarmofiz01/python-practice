@@ -1,7 +1,9 @@
 def my_function():
     print("ahrar mofiz")
 my_function()
-def mu_function(a,b):
-    return a+b
-math=mu_function(2,3)
-print(math)
+def odd_function(nums):
+    for i in nums:
+        if i%2==0:
+            return i
+odd=odd_function([2,4,6,9,7])
+print(odd)
