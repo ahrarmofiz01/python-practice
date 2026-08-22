@@ -1,11 +1,8 @@
-atm_pin = 2005
-
+atm_pin=2005
 while True:
-
-    pin = int(input("Enter the PIN: "))
-
-    if pin == atm_pin:
-        print("PIN is correct")
+    pin=int(input("enter your pin:"))
+    if pin==atm_pin:
+        print("correct pin")
         break
     else:
-        print("PIN is incorrect")
+        print("not correct")
