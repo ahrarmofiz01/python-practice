@@ -85,5 +85,3 @@ for i in nums:
         if i>second:
             second=i
 print(second)
-
-
