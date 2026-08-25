@@ -17,3 +17,6 @@ for i in range(1,50):
     count=count+i
     i=i+1
 print(count)
+#fun question
+for i in range(10,0,-1):
+    print(i,)
