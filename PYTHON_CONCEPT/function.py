@@ -10,3 +10,4 @@ print(odd)
 def math_function(a,b):
     print(a**2+b**2+2*a*b)
 math_function(2,3)
+
