@@ -1,3 +1,4 @@
+#longest increasing streak
 temps = [23, 25, 27, 26, 28, 30, 32, 31, 35]
 
 current = 1
