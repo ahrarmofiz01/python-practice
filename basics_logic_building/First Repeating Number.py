@@ -17,3 +17,10 @@ for i in nums:
         freq[i] = 1
 
 print(freq)
+nums=[1,2,3,5,6,1]
+seen={}
+for i in nums:
+    if i in seen:
+        print(i)
+        break
+    seen[i]=True
