@@ -5,8 +5,9 @@ for i in list:
         print(i)
         break
     seen[i]=True
-    nums=[1,1,1,2,2,3,4,5,5,6,6]
-    freq = {}
+nums=[1,1,1,2,2,3,4,5,5,6,6]
+
+freq = {}
 
 for i in nums:
 
