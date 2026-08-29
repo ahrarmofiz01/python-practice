@@ -10,7 +10,7 @@ while True:
         withdraw = int(input("Enter your amount: ")) 
         
         if withdraw <= avlbal: 
-            print("Collect your cash") 
+            print("Collect your cash",withdraw) 
             avlbal -= withdraw 
             break 
         else: 
