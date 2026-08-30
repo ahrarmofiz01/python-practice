@@ -9,12 +9,13 @@ print(factorial)
 ##################################################
 ##################################################
 ##################################################
+####################FACTORIAL WITH FOR LOOP##########
 factorial=1
 for i in range(1,6):
     factorial=factorial*i
     i=i+1
 print(factorial)
-#with for loop
+
 count=0
 for i in range(1,50):
     count=count+i
