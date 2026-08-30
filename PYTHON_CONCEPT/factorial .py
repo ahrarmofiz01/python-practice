@@ -1,13 +1,16 @@
 #factorial with while loop
-
+num=6
 count=1
 factorial=1
-while count<=5:
+while count<=num:
     factorial=factorial*count
     count=count+1
-
 print(factorial)
-for i in range(1,7):
+##################################################
+##################################################
+##################################################
+factorial=1
+for i in range(1,6):
     factorial=factorial*i
     i=i+1
 print(factorial)
