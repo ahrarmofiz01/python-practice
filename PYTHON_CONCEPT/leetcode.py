@@ -1,4 +1,4 @@
-""""Count the Digits that Divide the Number""""
+#######Count the Digits that Divide the Number#####
 num=121
 temp=num
 count=0
