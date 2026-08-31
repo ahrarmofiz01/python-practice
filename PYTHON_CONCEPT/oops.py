@@ -9,3 +9,9 @@ class person:
 p1=person("ahrar",36)
 print(p1.name)
 print(p1.age)
+class math:
+    def __init__(self,add,mul):
+        self.add=add
+        self.mul=mul
+m=math(2,2)
+print(m.add)
