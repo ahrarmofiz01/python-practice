@@ -45,3 +45,21 @@ while len(q) > 0:
             ans.append(x)
 
 print(ans)
+#dfs
+stack=[]
+visited=[False]*v
+ans=[]
+stack.append(0)
+visited[0] = True
+
+while len(stack) > 0:
+    front = stack.pop()
+    ans.append(front)
+
+    for x in adjlist[front]:
+        if not visited[x]:
+            stack.append(x)
+            visited[x] = True
+            
+
+print(ans)
