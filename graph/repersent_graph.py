@@ -13,3 +13,14 @@ for edge in edges:
     adjlist[y].append(x)
 for i in range(v):
     print(i,"->",adjlist[i])
+#adjacency matrix
+adjmatrix=[]
+for i in range(v):
+    adjmatrix.append([0]*v)
+for edge in edges:
+    x=edge[0]
+    y=edge[1]
+    adjmatrix[x][y]=1
+    adjmatrix[y][x]=1
+for i in adjmatrix:
+    print(i)
