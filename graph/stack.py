@@ -5,3 +5,10 @@ for i in list:
 print(stack)
 x=stack.pop()
 print(x)
+list=[0,1,2,3,4]
+q=[]
+for i in list:
+    q.append(i)
+print(q)
+x=q.pop(0)
+print(x)
