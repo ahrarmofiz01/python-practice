@@ -14,3 +14,15 @@ for i in list:
 print(q)
 x=q.pop(0)
 print(x)
+#stack question
+stack=[]
+stack.append(1)
+stack.append(2)
+stack.append(3)
+stack.append(4)
+print(stack)
+list=[]
+x=stack.pop()
+x1=stack.pop()
+print(x)
+print(x1)
