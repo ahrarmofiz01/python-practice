@@ -21,7 +21,6 @@ stack.append(2)
 stack.append(3)
 stack.append(4)
 print(stack)
-list=[]
 x=stack.pop()
 x1=stack.pop()
 print(x)
