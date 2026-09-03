@@ -8,11 +8,15 @@ print(dict)
 for i in dict:
     print( i,dict[i])
 #### frequency question#########
-list1=[1,2,3,4,5,6,1]
+list=[1,2,3,4,1,2,2]
 freq={}
-for i in list1:
+for i in list:
     if i in freq:
         freq[i]=freq[i]+1
+    else:
+        freq[i]=1
+for i in freq:
+    print(freq[i],i)
     
-print(freq)
+
     
