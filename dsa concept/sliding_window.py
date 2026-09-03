@@ -7,7 +7,7 @@ for i in range(k):
 ans=current_sum/k
 for i in range(k,n):
     current_sum +=list[i]
-    current_sum+=list[i-k]
+    current_sum-=list[i-k]
     ans=max(ans,current_sum/k)
 print(ans)
 
