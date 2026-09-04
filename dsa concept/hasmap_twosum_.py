@@ -1,8 +1,11 @@
-list=[1,2,4,5,9]
-target=3
+list=[2,9,12,15,21]
+target=11
 seen={}
 for i in list:
-    required=target-i
-    if required in seen:
-        print(required, i)
+    require=target-i
+    if require in seen:
+        print(require,i)
     seen[i]=1
+ 
+ 
+ 
