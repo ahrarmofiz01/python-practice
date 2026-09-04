@@ -1,14 +1,12 @@
-list=[1,2,3,4,5,6]
+list=[2,4,6,8,10,12]
 k=3
+n=len(list)
 sum=0
 for i in range(k):
-    sum+=list[i]
+    sum=sum+list[i]
 ans=sum/k
-for i in range(k,len(list)):
-    sum+=list[i]
-    sum-=list[i-k]
+for i in range(k,n):
+    sum=sum+list[i]
+    sum=sum-list[i-k]
     ans=max(ans,sum/k)
 print(ans)
-
-
-    
