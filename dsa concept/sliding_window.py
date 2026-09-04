@@ -5,10 +5,11 @@ sum=0
 for i in range(k):
     sum=sum+list[i]
     print(sum)
-ans=sum/k
+ans=sum
 for i in range(k,n):
     sum=sum+list[i]
     sum=sum-list[i-k]
-    ans=max(ans,sum/k)
-print(ans)
+    ans=max(ans,sum)
+   
+
 
