@@ -24,3 +24,10 @@ def fun2(x,n):
     print(n)
     fun2(x,n-2)
 fun2(0,10)
+##RECURSIVE STACK
+def fun3(i):
+    if i==5:
+        return
+    fun3(i+1)
+    print(i)
+fun3(1)
