@@ -14,3 +14,13 @@ def function(i):
     print(i)
     function(i+1)
 function(0)
+
+
+
+
+def fun2(x,n):
+    if x==n:
+        return
+    print(n)
+    fun2(x,n-2)
+fun2(0,10)
