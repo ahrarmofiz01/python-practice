@@ -51,3 +51,10 @@ def gcd(a,b):
         return a
     return gcd(b,a%b)
 print(gcd(10,5))
+
+def gcd1(a,b):
+    if b==0:
+        return a
+    return gcd(b,a%b)
+print(gcd1(6,3))
+print(gcd(5,15))
