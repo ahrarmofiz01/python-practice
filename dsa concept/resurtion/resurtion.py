@@ -31,3 +31,11 @@ def fun3(i):
     fun3(i+1)
     print(i)
 fun3(1)
+
+
+def fun3(j):
+    if j==5:
+        return
+    print(j)
+    fun3(j+1)
+fun3(0)
