@@ -39,3 +39,9 @@ def fun3(j):
     print(j)
     fun3(j+1)
 fun3(0)
+### factorial #####
+def fact(n):
+    if  n==0 or n==1:#both 1 and 0 factorial=1
+        return 1
+    return n*fact(n-1)
+print(fact(4))
