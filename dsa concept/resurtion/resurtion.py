@@ -45,3 +45,9 @@ def fact(n):
         return 1
     return n*fact(n-1)
 print(fact(4))
+#GCD
+def gcd(a,b):
+    if b==0:
+        return a
+    return gcd(b,a%b)
+print(gcd(10,5))
