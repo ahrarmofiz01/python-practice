@@ -1,5 +1,5 @@
-list=[2,9,12,15,21]
-target=11
+list=[12,3,9,19]
+target=15
 seen={}
 for i in list:
     require=target-i
