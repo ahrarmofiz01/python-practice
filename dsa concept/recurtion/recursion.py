@@ -41,10 +41,10 @@ def fun3(j):
 fun3(0)
 ### factorial #####
 def fact(n):
-    if  n==0 or n==1:#both 1 and 0 factorial=1
+    if n==0:
         return 1
     return n*fact(n-1)
-print(fact(4))
+print(fact(5))
 #GCD
 def gcd(a,b):
     if b==0:
