@@ -1,13 +1,9 @@
-data=[1,2,3,4,5,6,7]  
-k=3
-n=len(data) 
+def primenum(n):
+    if n==0 or n==1:
+        return False
+    for i in range(2,n):
+        if n%i==0:
+           return  False
 
-sum=0
-for i in range(k):
-    sum=sum+data[i]
-ans=sum/k
-for i in range (k,n):
-    sum=sum+data[i]
-    sum=sum-data[i-k]
-    ans=max(ans,sum/k)
-print(ans)
+    return True
+print(primenum(3))
