@@ -1,11 +1,12 @@
 #with loop
+#power of four and power of two 
 def poweroftwo(n):
     if n==0:
         return False
-    while n%2==0:
-        n=n/2#n/=2 v likh skte hai 
+    while n%4==0:
+        n=n/4#n/=2 v likh skte hai 
     return n==1
-print(poweroftwo(0))
+print(poweroftwo(5))
 # with recurtion
 def poweroftwo(n):
     if n==0:
