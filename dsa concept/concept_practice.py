@@ -1,5 +1,9 @@
-def factorial(n):
+def pow(n):
     if n==0:
-        return 1
-    return n*factorial(n-1)
-print(factorial(5))
+        return False
+    if n==1:
+        return True
+    if n%2==1:
+        return False
+    return pow(n//2)
+print(pow(12))
