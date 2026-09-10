@@ -9,4 +9,10 @@ def pow(n):
   
     return pow(n//2)
 print(pow(16))
-    
+#continiu number
+def num(n):
+    if n==5:
+        return
+    print(n)
+    num(n+1)
+num(0)
