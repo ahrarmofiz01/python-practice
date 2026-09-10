@@ -22,3 +22,9 @@ def factorial(n):
         return 1
     return n*factorial(n-1)
 print(factorial(0))
+def mul(n):
+    if n==22:
+        return
+    print(n)
+    mul(n+2)
+mul(0)
