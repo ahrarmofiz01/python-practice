@@ -16,3 +16,9 @@ def num(n):
     print(n)
     num(n+1)
 num(0)
+#factorial
+def factorial(n):
+    if n==0:
+        return 1
+    return n*factorial(n-1)
+print(factorial(5))
