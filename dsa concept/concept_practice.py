@@ -1,30 +1,7 @@
-#power of n
-def pow(n):
-    if n==1:
-        return True
-    if n==0:
-        return False
-    if n%2==1:
-        return False
-  
-    return pow(n//2)
-print(pow(16))
-#continiu number
+#concept practice
 def num(n):
     if n==5:
-        return
-    print(n)
+        return n
     num(n+1)
-num(0)
-#factorial
-def factorial(n):
-    if n==0:
-        return 1
-    return n*factorial(n-1)
-print(factorial(0))
-def mul(n):
-    if n==22:
-        return
-    print(n)
-    mul(n+2)
-mul(0)
+print(num(0))
+  
