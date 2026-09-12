@@ -16,3 +16,14 @@ for i in num:
 print(sum)
 missingsum=expextedsum-sum
 print(missingsum)
+arr = [1, 2, 4, 2, 5, 1]
+
+seen = {}
+
+for i in arr:
+
+    if i in seen:
+        print(i)
+        break
+
+    seen[i] = True
