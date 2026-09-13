@@ -1,29 +1,8 @@
-array=[0,8,2,7,9]
-largest=array[0]
-second=array[1]
+array=[2,3,3,4,2,8,9,3,7,2,2,2,2,2,2,2,22,2]
+count=0
+num=array[0]
 for i in array:
-    if i>largest:
-        second=largest
-        largest=i
-print(second)
-num=[0,1,3]
-n=len(num)
-print(n)
-expextedsum=n * (n + 1) / 2
-sum=0
-for i in num:
-    sum=sum+i
-print(sum)
-missingsum=expextedsum-sum
-print(missingsum)
-arr = [1, 2, 4, 2, 5, 1]
-
-seen = {}
-
-for i in arr:
-
-    if i in seen:
-        print(i)
-        break
-
-    seen[i] = True
+    if num==i:
+        count= count+1
+print(num,"frequency = ",count)
+   
