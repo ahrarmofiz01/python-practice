@@ -7,3 +7,15 @@ for i in array:
     else:
         seen[i]=1
 print(seen)
+word = "apple"
+
+seen = {}
+
+for i in word:
+    if i in seen:
+        seen[i] += 1
+    else:
+        seen[i] = 1
+
+print(seen)
+
