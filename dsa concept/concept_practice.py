@@ -1,21 +1,24 @@
-array=[8,0,2,9,29,0,0,2,1.23,4]
-seen={}
-for i in array:
-    if i in  seen:
-        seen[i]=seen[i]+1
+users = {
+    "A": ["Inception", "Avatar", "Titanic"],
+    "B": ["Avatar", "Titanic", "Interstellar"],
+    "C": ["Inception", "Interstellar", "Avengers"]
+}
 
-    else:
-        seen[i]=1
-print(seen)
-word = "apple"
+user = "A"
 
-seen = {}
+recommended = []
 
-for i in word:
-    if i in seen:
-        seen[i] += 1
-    else:
-        seen[i] = 1
+for other_user in users:
+    if other_user != user:
 
-print(seen)
+        for movie in users[other_user]:
+
+            if movie not in users[user] and movie not in recommended:
+                recommended.append(movie)
+
+print("Recommended movies:")
+
+for movie in recommended:
+    print(movie)
+
 
