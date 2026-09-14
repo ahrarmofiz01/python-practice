@@ -21,3 +21,19 @@ for kew ,value in seen.items():
         largest=value
         largest_key=kew
 print(largest_key,largest)
+numbers = [4, 7, 2, 9, 5, 8]
+
+largest = 0
+second = 0
+
+for i in numbers:
+
+    if i > largest:
+        second = largest
+        largest = i
+
+    elif i > second:
+        second = i
+
+print("Largest:", largest)
+print("Second Largest:", second)
