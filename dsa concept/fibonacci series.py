@@ -17,3 +17,12 @@ def fec(n):
         return 1
     return n*fec(n-1)
 print(fec(5))
+def reverse_word(s):
+    # Base Case
+    if s == "":
+        return ""
+    
+    # s[0] matlab pehla letter, s[1:] matlab baaki bacha word
+    return reverse_word(s[1:]) + s[0]
+
+print(reverse_word("cat"))
