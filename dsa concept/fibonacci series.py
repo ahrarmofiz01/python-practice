@@ -11,3 +11,9 @@ def tri(j):
         return 1
     return tri(j-1)+tri(j-2)+tri(j-3)
 print(tri(8))
+
+def fec(n):
+    if n==0:
+        return 1
+    return n*fec(n-1)
+print(fec(5))
