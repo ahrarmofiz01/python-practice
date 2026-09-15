@@ -57,4 +57,9 @@ def gcd1(c,d):
         return c
     return gcd1(d,c%d)
 print(gcd1(9,3))
+def word(s):
+    if s=="":
+        return ""
+    return  word(s[1:]) +s[0]
+print(word("banana"))
 
