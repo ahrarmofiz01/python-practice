@@ -18,6 +18,7 @@ for i in range(n**2):
 ####################################################
 #XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 #__________________________________________________#
+#0(log2n) opration
 n=100
 i=1
 while i<=n:
