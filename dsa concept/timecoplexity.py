@@ -15,3 +15,11 @@ n=10
 for i in range(n**2):
     print(i)
 #o(n^2)
+####################################################
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+#__________________________________________________#
+n=100
+i=1
+while i<=n:
+    print(i,end=" ")
+    i*=2
