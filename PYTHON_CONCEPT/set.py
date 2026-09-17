@@ -15,6 +15,6 @@ set2.discard(100)
 print(set2)
 set1={1,3,5,8,9}
 set2={9,5,11,28,1}
-print(set1|set2)
+print(set1^set2)
 #or
 print(set1.union(set2))
