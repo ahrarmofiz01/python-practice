@@ -19,3 +19,15 @@ print(dict1)
 dict1[3]="baba tillu"
 dict1[4]="main baba tillu"
 print(dict1)
+dict1={1:"ahrar",2:"mofiz",3:"aslam",4:"balgoo",5:"jiloo" }
+for i in dict1:
+    print(i,dict1[i])
+#frequency problums
+list1=[2,1,3,4,5,6,2,2,3,9,2,3]
+seen={}
+for i in list1:
+    if i in seen:
+        seen[i]=seen[i]+1
+    else:
+        seen[i]=1
+print(seen)
