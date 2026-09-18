@@ -12,5 +12,10 @@ dict1={1:"ahrar",
 print(len(dict1))
 dict1[3]="arjun"
 print(dict1)
+dict1.pop(3)
+del dict1[4]
 dict1[5]="krma"
+print(dict1)
+dict1[3]="baba tillu"
+dict1[4]="main baba tillu"
 print(dict1)
