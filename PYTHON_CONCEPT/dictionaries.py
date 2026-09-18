@@ -10,4 +10,7 @@ dict1={1:"ahrar",
 
        }
 print(len(dict1))
-dict1
+dict1[3]="arjun"
+print(dict1)
+dict1[5]="krma"
+print(dict1)
