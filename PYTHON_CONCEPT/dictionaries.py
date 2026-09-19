@@ -31,3 +31,13 @@ for i in list1:
     else:
         seen[i]=1
 print(seen)
+# three__sum__problum
+list1=[2,4,9,8,12,3,21,6]
+target=39
+seen={}
+for i in list1:
+    require=target-i
+    require=require-i
+    if require in seen:
+        print(require,require,i)
+    seen[i]=1
