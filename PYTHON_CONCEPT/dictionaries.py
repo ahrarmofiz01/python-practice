@@ -31,4 +31,3 @@ for i in list1:
     else:
         seen[i]=1
 print(seen)
-print("l")
