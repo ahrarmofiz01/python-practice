@@ -17,5 +17,4 @@ else:
         ans = max(ans, j - i + 1)
         j += 1
 
-    print(ans)
-print(10)
+
