@@ -18,3 +18,4 @@ else:
         j += 1
 
     print(ans)
+print(10)
