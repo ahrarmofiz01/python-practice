@@ -31,14 +31,7 @@ for i in list1:
     else:
         seen[i]=1
 print(seen)
-s="ahrar"
-seen={}
-set1=set(s)
-print(set1)
-for i in set1:
-    if i in seen:
-        seen[i]=seen[i]+1
-print(len(seen))
+
     
     
 
