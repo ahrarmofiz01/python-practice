@@ -22,4 +22,7 @@ c=node(4)
 a.next=b
 b.next=c
 head=a
+newnode=node(8)
+newnode.next=head
+head=newnode
 linkll(head)
