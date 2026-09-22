@@ -22,7 +22,15 @@ c=node(4)
 a.next=b
 b.next=c
 head=a
+#inset at the begining
 newnode=node(8)
 newnode.next=head
 head=newnode
+#insert at the end
+newnode=node(9)
+curr=head
+while curr .next!=None:
+    curr=curr.next
+curr.next=newnode
+
 linkll(head)
