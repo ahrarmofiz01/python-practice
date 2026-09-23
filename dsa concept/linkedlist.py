@@ -32,5 +32,7 @@ curr=head
 while curr .next!=None:
     curr=curr.next
 curr.next=newnode
+#remove the first node
+head=head.next
 
 linkll(head)
