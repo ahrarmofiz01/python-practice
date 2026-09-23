@@ -47,5 +47,11 @@ for i in range(k-2):
     curr=curr.next
 newnode.next=curr.next
 curr.next=newnode
+#remove from kth index
+k=3
+curr=head
+for i in range(k-2):
+    curr=curr.next
+curr.next=curr.next.next
 
 linkll(head)
