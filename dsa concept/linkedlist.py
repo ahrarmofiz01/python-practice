@@ -34,5 +34,10 @@ while curr .next!=None:
 curr.next=newnode
 #remove the first node
 head=head.next
+#remove the last node
+curr=head
+while curr.next.next!=None:
+    curr=curr.next
+curr.next=None
 
 linkll(head)
