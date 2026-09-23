@@ -39,5 +39,13 @@ curr=head
 while curr.next.next!=None:
     curr=curr.next
 curr.next=None
+#insert add the kth indec
+newnode=node(15)
+k=3
+curr=head
+for i in range(k-2):
+    curr=curr.next
+newnode.next=curr.next
+curr.next=newnode
 
 linkll(head)
