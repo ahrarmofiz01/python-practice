@@ -28,6 +28,14 @@ curr=head
 while curr.next !=None:
     curr=curr.next
 curr.next=newnode
+#insert at k th term
+k=4
+curr =head
+newnode=node(7)
+for i in range(k-2):
+    curr=curr.next
+newnode.next=curr.next
+curr.next=newnode
 
 
 linkedl(head)
