@@ -23,11 +23,10 @@ newnode=node(0)
 newnode.next=head
 head=newnode
 #insert at endnode
-newnode=node(4)
+newnode=node(5)
 curr=head
-while curr.next != None:
+while curr.next !=None:
     curr=curr.next
-
 curr.next=newnode
 
 
