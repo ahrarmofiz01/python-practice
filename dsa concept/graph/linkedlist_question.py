@@ -18,8 +18,10 @@ b=node(2)
 c=node(3)
 a.next=b
 b.next=c
+#insert at the first point
 newnode=node(0)
 newnode.next=head
+#delete add the  first point
 head=newnode
 head=head.next
 
