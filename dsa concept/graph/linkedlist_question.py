@@ -21,6 +21,7 @@ b.next=c
 newnode=node(0)
 newnode.next=head
 head=newnode
+head=head.next
 
    
 linkedl(head)
