@@ -24,6 +24,18 @@ newnode.next=head
 #delete add the  first point
 head=newnode
 head=head.next
+curr=head
+newnode=node(5)
+while curr.next.next != None:
+    curr=curr.next
+curr.next=newnode
+newnode=curr.next
+curr=head
+curr=head
+while curr.next.next!=None:
+    curr=curr.next
+curr.next=None
+
 
    
 linkedl(head)
