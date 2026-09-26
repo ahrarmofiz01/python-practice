@@ -20,6 +20,7 @@ newnode=node(0)
 curr=head
 newnode.next=head
 head=newnode
+head=newnode.next
 linkidl(head)
 
 
