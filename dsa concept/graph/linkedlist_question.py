@@ -18,8 +18,8 @@ def linkidl(head):
         curr=curr.next
 newnode=node(0)
 curr=head
-head=curr.next
-newnode=head
+newnode.next=head
+head=newnode
 linkidl(head)
 
 
