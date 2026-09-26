@@ -16,6 +16,10 @@ def linkidl(head):
     while curr != None:
         print(curr.data)
         curr=curr.next
+newnode=node(0)
+curr=head
+head=curr.next
+newnode=head
 linkidl(head)
 
 
