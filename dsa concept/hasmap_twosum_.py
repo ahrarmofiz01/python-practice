@@ -6,6 +6,7 @@ for i in  list:
     if require in seen:
         print(require,i)
     seen[i]=1
+print("hello")
  
  
  
