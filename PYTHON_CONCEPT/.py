@@ -1,60 +1,49 @@
-import time
+import math
 import random
+import time
 import os
 
 GREEN = "\033[92m"
 RED = "\033[91m"
-YELLOW = "\033[93m"
+CYAN = "\033[96m"
 RESET = "\033[0m"
 
-def clear():
-    os.system("cls" if os.name == "nt" else "clear")
+os.system("clear")
 
-def type_text(text, speed=0.03):
-    for c in text:
-        print(c, end="", flush=True)
-        time.sleep(speed)
-    print()
+WIDTH = 80
+HEIGHT = 25
 
-clear()
+phase = 0
 
-type_text(GREEN + ">>> HACKING NASA..." + RESET)
-time.sleep(1)
+while True:
 
-type_text(YELLOW + ">>> Bypassing firewall..." + RESET)
-time.sleep(1)
+    print("\033[H", end="")
 
-type_text(GREEN + ">>> Downloading secret files..." + RESET)
-time.sleep(1)
+    for y in range(HEIGHT):
+        line = ""
 
-for i in range(5):
-    print(GREEN + f">>> Downloading... {random.randint(1,99)}%" + RESET)
-    time.sleep(0.3)
+        for x in range(WIDTH):
 
-type_text(RED + ">>> ACCESS DENIED 💀" + RESET)
-time.sleep(1)
+            wave = math.sin(
+                x * 0.25 +
+                y * 0.45 +
+                phase
+            )
 
-type_text(YELLOW + ">>> Trying another method..." + RESET)
-time.sleep(1)
+            noise = random.random()
 
-type_text(GREEN + ">>> Asking Google for password..." + RESET)
-time.sleep(1)
+            if wave > 0.65 and noise > 0.45:
+                char = random.choice("01{}[]<>/\\#$%@")
+                line += GREEN + char + RESET
 
-type_text(RED + ">>> Password: 123456" + RESET)
-time.sleep(1)
+            elif wave < -0.75 and noise > 0.7:
+                char = random.choice("01ABCDEF")
+                line += RED + char + RESET
 
-type_text(GREEN + ">>> ACCESS GRANTED 😂" + RESET)
+            else:
+                line += " "
 
-time.sleep(2)
+        print(line)
 
-print()
-print(GREEN + r"""
-      ██████╗ ██╗  ██╗
-      ██╔══██╗██║  ██║
-      ██████╔╝███████║
-      ██╔═══╝ ██╔══██║
-      ██║     ██║  ██║
-      ╚═╝     ╚═╝  ╚═╝
-""" + RESET)
-
-print(YELLOW + "        BRO IS A HACKER 💀" + RESET)
+    phase += 0.15
+    time.sleep(0.03)
