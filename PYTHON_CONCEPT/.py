@@ -1,3 +1,7 @@
 import secrets
-bruh=secrets.token_hex(10000)
-print(bruh)
+import string
+
+chars = string.ascii_letters + string.digits + "!@#$%^&*"
+password = ''.join(secrets.choice(chars) for _ in range(32))
+
+print(password)
