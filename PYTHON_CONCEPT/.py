@@ -1,7 +1,7 @@
-import secrets
-import string
+import random
+import time
 
-chars = string.ascii_letters + string.digits + "!@#$%^&*"
-password = ''.join(secrets.choice(chars) for _ in range(32))
-
-print(password)
+while True:
+    line = ''.join(random.choice("01") for _ in range(80))
+    print(f"\033[92m{line}\033[0m")
+    time.sleep(0. 05)
