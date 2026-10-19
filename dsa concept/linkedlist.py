@@ -1,6 +1,8 @@
-s = "abcabcbb"
-r=set(s)
-count=0
-for i in r:
-    count=count+1
-print(count)
+class node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+a=node(5)
+print(a.data)
+
+
