@@ -20,7 +20,9 @@ c=node(3)
 a.next=b
 b.next=c
 head=a
-head=head.next
+newnode=node(0)
+newnode.next=head
+head=newnode
 linkedll()
 
 
