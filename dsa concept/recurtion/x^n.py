@@ -24,6 +24,6 @@ def pow(x,n):
         return a*a*x
     else:
         return a*a
-print(pow(2,0))
+print(pow(2,2))
 
 
