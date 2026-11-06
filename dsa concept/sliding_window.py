@@ -3,8 +3,8 @@ k=3
 n=len(list)
 sum=0
 for i in range(k):
-    sum=sum+list[i]
-    print(sum)
+     sum=sum+list[i]
+     print(sum)
 ans=sum/k
 for i in range(k,n):
     sum=sum+list[i]

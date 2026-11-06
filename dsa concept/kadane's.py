@@ -1,5 +1,5 @@
 #MAXIMUM SUBARRAY
-nums=[-2,1,-3,4,-1,2,1,-5,4]
+nums=[-2,1,-3,4,-1,3,1,-5,4]
 n=len(nums)
 ans=nums[0]
 current_sum=0

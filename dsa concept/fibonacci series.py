@@ -17,4 +17,8 @@ def fec(n):
         return 1
     return n*fec(n-1)
 print(fec(5))
-
+nums=[-100,-98,-1,2,3,4]
+product=1
+for i in nums:
+    product=product*i
+print(product)
