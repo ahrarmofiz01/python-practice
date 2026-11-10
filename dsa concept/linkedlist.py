@@ -25,8 +25,11 @@ newnode.next=head
 head=newnode
 linkedll()
 newnode=node(4)
-newnode.next=head
-head=newnode
+curr=head
+while curr.next!=None:
+    curr=curr.next
+    curr.next=newnode
+
 
 linkedll()
 
