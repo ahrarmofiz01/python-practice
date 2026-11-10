@@ -24,11 +24,11 @@ newnode=node(0)
 newnode.next=head
 head=newnode
 linkedll()
+newnode=node(4)
+newnode.next=head
+head=newnode
 
-
-
-
-
+linkedll()
 
 
 
