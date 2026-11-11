@@ -21,4 +21,10 @@ def linkedlist():
     while curr:
         print(curr.data)
         curr=curr.next
+    head=head.next
+    curr=head
+    while curr:
+        print(curr.data)
+        curr = curr.next
+
 linkedlist()
