@@ -15,27 +15,9 @@ def linkedlist():
 
     a.next = b
     b.next = c
-
-    head = a
-    curr = head
+    head=a
+    curr=head
     while curr:
         print(curr.data)
         curr=curr.next
-    head=head.next
-    curr=head
-    newnode=node(100)
-    newnode.next=curr
-    curr=newnode
-    while curr:
-        print(curr.data)
-        curr = curr.next
-    curr=head
-    prev=None
-    while curr:
-        nextnode=curr.next
-        curr.next=prev
-        prev=curr
-        curr=nextnode
-    
-
 linkedlist()
