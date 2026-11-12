@@ -29,5 +29,13 @@ def linkedlist():
     while curr:
         print(curr.data)
         curr = curr.next
+    curr=head
+    prev=None
+    while curr:
+        nextnode=curr.next
+        curr.next=prev
+        prev=curr
+        curr=nextnode
+    
 
 linkedlist()
