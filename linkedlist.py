@@ -23,6 +23,9 @@ def linkedlist():
         curr=curr.next
     head=head.next
     curr=head
+    newnode=node(100)
+    newnode.next=curr
+    curr=newnode
     while curr:
         print(curr.data)
         curr = curr.next
