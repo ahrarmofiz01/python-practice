@@ -10,12 +10,19 @@ a.next=b
 b.next=c
 head=a
 print(head.data)
-#traverse
+#traverse.   
 def linkedlist(head):
+    newnode=node(4)
     curr=head
-    while curr :
-        print(curr.data,end=" ")
+    while curr.next!= None:
         curr=curr.next
+    curr.next=newnode
+    return head
+head=linkedlist(head)
+curr=head
+while curr:
+    print(curr.data, end=" -> ")
+    curr = curr.next
 
-linkedlist(head)
+print("None")
 
