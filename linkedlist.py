@@ -11,11 +11,11 @@ b.next=c
 head=a
 print(head.data)
 #traverse
+def linkedlist(head):
+    curr=head
+    while curr :
+        print(curr.data,end=" ")
+        curr=curr.next
 
-curr=head
-while curr :
-    print(curr.data)
-    curr=curr.next
-    
-
+linkedlist(head)
 
