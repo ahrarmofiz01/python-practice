@@ -1,6 +1,7 @@
 for i in range(1,5):
     for j in range(i,5):
         print(i,j)
+    print("hello")
 # i ki value tab tak same rahegi jab tak j ka loop complete nahi hota.
 #j har iteration mein apni value change karega.Agar print(i, j) hai, toh i baar-baar print hoga, kyunki print statement inner loop ke andar hai.
 
@@ -18,3 +19,9 @@ for i in range(1,5):
 #3 3
 #3 4
 #4 4
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i,j, end="")
+    print()
+        
+    
