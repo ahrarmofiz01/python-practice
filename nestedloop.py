@@ -27,5 +27,7 @@ for i in range(2):
     print(i)
     for j in range(10,13):
         print(j)
-        
-    
+#print the multiplication  Table of 2
+for i in range(2,3):
+    for j in range(1,11):
+        print(i,"*",j,"=",i*j)
