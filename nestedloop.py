@@ -19,9 +19,13 @@ for i in range(1,5):
 #3 3
 #3 4
 #4 4
-for i in range(1, 4):
-    for j in range(1, 4):
-        print(i,j, end="")
+for i in range(1, 5):
+    for j in range(1, 6):
+        print("#", end="")
     print()
+for i in range(2):
+    print(i)
+    for j in range(10,13):
+        print(j)
         
     
