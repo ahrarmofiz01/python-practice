@@ -44,6 +44,18 @@ for i in range(6,0,-1):
     print()
 for i in range(1,6):
     for j in range(1,i+1):
+        print(i,end=" ")
+    print()
+for i in range(1,6):
+    for j in range(1,i+1):
         print(j,end=" ")
     print()
+#pyramid Pattern
+rows=5
+for i in range(1,rows+1):
+    spaces=" "*(rows-i)
+    stars="*" * (2*i-1)
+    print(spaces+stars)
+
+    
     
