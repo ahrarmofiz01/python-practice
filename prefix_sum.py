@@ -6,3 +6,9 @@ for i in arr:
     sum=sum+i
     list.append(sum)
 print(list)
+ans=0
+for i in range(1,4):
+    ans=ans+arr[i]
+    
+print(ans)
+   
