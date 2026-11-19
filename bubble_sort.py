@@ -11,3 +11,6 @@ for i in range(n):
     if not swapped:
         break
 print(nums)
+arr=[1,4,5,2,4]
+n=len(arr)//2
+print(n)
