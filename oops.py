@@ -30,5 +30,14 @@ class math:
         return self.a+self.b
     def substract(self):
         return self.a-self.b
-m1=math(2,3)
-print(m1.substract())
+# Private variable(__)
+#use for not accessssing the valu
+class bankaccount:
+    def __init__(self,name,__balance):
+        self.name=name
+        self.__balance=__balance
+b1=bankaccount("ahrar",10000)
+b1.balance=20000
+print(b1.__balance)
+
+
