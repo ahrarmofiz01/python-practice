@@ -55,6 +55,13 @@ k1=key("ahrar",1234)
 k1.password=8903
 print(k1.password)
 
+class student:
+    def __init__(self,name,marks):
+        self.name=name
+        self.marks=marks
+s1=student("ahrar",80)
+print(s1.marks)
+
 
 
 
