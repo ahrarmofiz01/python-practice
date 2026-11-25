@@ -10,4 +10,4 @@ class account:
         return self.ammount
         
 a1=account("ahrar",100000)
-print( "total amount :",a1.debit(5000))
+print( a1.debit(5000))
