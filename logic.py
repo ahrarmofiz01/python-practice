@@ -16,6 +16,13 @@ for i in range(len(nums)):
     elif nums[i]<largest and nums[i]>second:
         second=nums[i]
 print(second)
+nums=[2,3,55,55,1] 
+sum=0
+for i in nums:
+    sum=sum+i
+print(sum)
+
+
 
 
         
