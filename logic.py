@@ -1,4 +1,6 @@
-nums=[-1,-10,-20]
+nums=[0]
+
+
 largest=nums[0]
 for i in range(len(nums)):
     if nums[i]>largest:
